@@ -1,0 +1,128 @@
+{
+	"pages": [
+		//pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/discovery/discovery",
+			"style": {
+				"navigationBarTitleText": "iACG",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/post-detail/post-detail",
+			"style": {
+				"navigationBarTitleText": "帖子详情",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/post-release/post-release",
+			"style": {
+				"navigationBarTitleText": "发布贴子",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/homepage/homepage",
+			"style": {
+				"navigationBarTitleText": "个人主页",
+				"enablePullDownRefresh": true
+			}
+
+		}, {
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "iACG",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/my-info/my-info",
+			"style": {
+				"navigationBarTitleText": "我的资料",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/chat/chat",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/my-info/nickname/nickname",
+			"style": {
+				"navigationBarTitleText": "更改昵称",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/my-info/introduction/introduction",
+			"style": {
+				"navigationBarTitleText": "更改简介",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/my-info/gender/gender",
+			"style": {
+				"navigationBarTitleText": "更改性别",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/post-check/post-check",
+			"style": {
+				"navigationBarTitleText": "帖子审核",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/comment-check/comment-check",
+			"style": {
+				"navigationBarTitleText": "评论审核",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/post-hot/post-hot",
+			"style": {
+				"navigationBarTitleText": "iACG",
+				"enablePullDownRefresh": true
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "iACG",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+		"color": "#666666",
+		"selectedColor": "#55aaff",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"text": "发现",
+				"pagePath": "pages/discovery/discovery",
+				"iconPath": "static/discovery.png",
+				"selectedIconPath": "static/discovery.png"
+			},
+			{
+				"text": "热榜",
+				"pagePath": "pages/post-hot/post-hot",
+				"iconPath": "static/hot.png",
+				"selectedIconPath": "static/hot.png"
+			},
+			{
+				"text": "我的",
+				"pagePath": "pages/my/my",
+				"iconPath": "static/my.png",
+				"selectedIconPath": "static/my.png"
+			}
+		]
+	}
+}
